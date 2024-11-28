@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Carrosellinhadotempo{
+    background-color: #488daa;
+    padding: 10px;
+}
+.Carrosellinhadotempo h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Bebas Neue", serif;
+    font-size: 4em;
+    letter-spacing: 3px;
+}
+.Carrosellinhadotempo hr{
+    margin-bottom: 50px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .carousel-content {
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width:100%;  /* Ajuste a largura conforme necessário */
+    overflow: hidden; /* Esconde os itens além da área visível */
+  }
+  
+  .item {
+    min-width: 150px; /* Ajuste a largura mínima de cada item */
+    height: 200px; /* Ajuste a altura conforme necessário */
+    background-color: #072b3a;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+  .item h2{
+    background-color: rgb(224, 224, 224);
+    color: #072b3a;
+    padding: 10px;
+    text-align: center;
+  }
+  .item p {
+    text-align: justify;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+  .item h2:hover{
+    background-color: #072b3a;
+    color: rgb(224, 224, 224)
+  }
+  button {
+    padding: 10px;
+    background-color: whitesmoke;
+    color: #072b3a;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #072b3a;
+    color: whitesmoke;
+  }
+  
