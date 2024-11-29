@@ -7,8 +7,8 @@ function Navbar(){
             <div className="LogoCedeca"><img src={LogoCedeca} alt="Logo-cedeca"/></div>
             <div className="ItensNav">
                 <a href="#Quemsomosbox">Quem Somos</a>
-                <a href="">Nossa Atuação</a>
-                <a href="">Onde nos encontrar</a>
+                <a href="#Ondenosencontrar">Onde nos encontrar</a>
+                <a href="">Nossa Atuação</a>                
                 <a href="">Doe</a>
                 <a href="">Redes Sociais</a>
                 <a href="">Projeto Tampinha Legal</a>

@@ -3,7 +3,7 @@
 
 .Carrosellinhadotempo{
     background-color: #488daa;
-    padding: 10px;
+    padding: 20px;
 }
 .Carrosellinhadotempo h1{
     text-align: center;
@@ -41,12 +41,15 @@
     justify-content: center;
     align-items: center;
     font-size: 12px;
+    border-radius: 10%;
   }
   .item h2{
     background-color: rgb(224, 224, 224);
+    font-family: "Roboto";
     color: #072b3a;
     padding: 10px;
     text-align: center;
+    border-radius: 10%;
   }
   .item p {
     text-align: justify;
@@ -65,6 +68,7 @@
     color: #072b3a;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
   }
   
   button:hover {
