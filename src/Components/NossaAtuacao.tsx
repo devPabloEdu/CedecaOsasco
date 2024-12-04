@@ -14,28 +14,38 @@ function NossaAtuacao() {
 
     return (<div id="Nossaatuacao">
         <div className="BotoesBox">
-            <hr />
             <h1>NOSSA ATUAÇÃO</h1>
             <p>Clique em uma de nossas unidades para mais informações</p>
-            <hr />
             <div className="Boxbuttonsdisplay">
                 <div>
-                    <button onClick={()=> handleButtonClick("MunhozJr")}>
+                    <button 
+                        onClick={() => handleButtonClick("MunhozJr")} 
+                        className={activeDiv === "MunhozJr" ? "active" : ""}
+                    >
                         Munhoz Júnior
                     </button>
                 </div>
                 <div>
-                    <button onClick={()=> handleButtonClick("RecantoRosas")}>
+                    <button 
+                        onClick={() => handleButtonClick("RecantoRosas")} 
+                        className={activeDiv === "RecantoRosas" ? "active" : ""}
+                    >
                         Recanto das Rosas
                     </button>
                 </div>
                 <div>
-                    <button onClick={()=> handleButtonClick("Centro")}>
+                    <button 
+                        onClick={() => handleButtonClick("Centro")} 
+                        className={activeDiv === "Centro" ? "active" : ""}
+                    >
                         Centro
                     </button>
                 </div>
                 <div>
-                    <button onClick={()=> handleButtonClick("Casperlibero")}>
+                    <button 
+                        onClick={() => handleButtonClick("Casperlibero")} 
+                        className={activeDiv === "Casperlibero" ? "active" : ""}
+                    >
                         Casper Libero
                     </button>
                 </div>
