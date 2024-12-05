@@ -5,32 +5,42 @@
     margin: 0;
 }
 .BarraDeNavegacao{
-    background-color: #488daa;
+    background-color: #f0605b;
     display: flex;
     align-items: center;
-
-    
+    position: fixed;
+    border-radius: 0px 20px 50px 0px;
 }
 .LogoCedeca img{
     width: 50px;
     padding-left: 20px;
     padding: none;
+    margin-right: 15px;
 }
 .ItensNav{
-    
 }
 .ItensNav a{
     padding: 20px;
-    padding-left: 40px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: "Roboto";
     font-size: 14px;
     text-align: center;
-    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.527) 8px 8px 15px;
 }
+
 
 .ItensNav a:hover{
     background-color: #37687e54;
     font-size: 15px;
+}
+
+.quemsomosnav{
+    background-color: #7bb0c7;
+}
+.ondenosencontrarnav{
+    background-color: #EBD167 ;
+}
+.nossaatuacaonav{
+    background-color: #676BEB;
 }

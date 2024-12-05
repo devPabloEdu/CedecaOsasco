@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .Carrosellinhadotempo{
-    background-color: #488daa;
+  background-image: url(../Assets/Fundoazulteste.jpeg);
+  background-position: center;
+  background-size: cover;
     padding: 20px;
 }
 .Carrosellinhadotempo h1{
@@ -42,6 +44,7 @@
     align-items: center;
     font-size: 12px;
     border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.144) 10px 20px 10px ;
   }
   .item h2{
     background-color: rgb(224, 224, 224);
@@ -52,7 +55,7 @@
     border-radius: 10%;
   }
   .item p {
-    text-align: justify;
+    text-align: center;
     padding: 10px;
     color: white;
     font-family: "Roboto";
@@ -69,10 +72,12 @@
     border: none;
     cursor: pointer;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.144) 10px 20px 10px ;
   }
   
   button:hover {
     background-color: #072b3a;
     color: whitesmoke;
   }
+  
   

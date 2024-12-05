@@ -15,7 +15,7 @@ function NossaAtuacao() {
     return (<div id="Nossaatuacao">
         <div className="BotoesBox">
             <h1>NOSSA ATUAÇÃO</h1>
-            <p>Clique em uma de nossas unidades para mais informações</p>
+            <p>Clique em uma de nossas <br />unidades para mais informações</p>
             <div className="Boxbuttonsdisplay">
                 <div>
                     <button 

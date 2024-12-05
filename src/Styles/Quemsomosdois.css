@@ -14,7 +14,7 @@
     color: whitesmoke;
     font-size: 5em;
     letter-spacing: 5px;
-    text-shadow: rgba(0, 0, 0, 0.404) 2px 2px 2px;
+    text-shadow: rgba(0, 0, 0, 0.699) 2px 2px 2px;
 }
 .Quemsomosdoisbox{
     display: flex;
@@ -33,6 +33,7 @@
     border-radius: 20%;
     text-align: left;
     text-shadow: rgba(0, 0, 0, 0.404) 2px 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.596) 10px 20px 10px ;
 }
 .ListaBox{
     padding: 50px;
@@ -45,6 +46,7 @@
     border-radius: 20%;
     text-align: left;
     text-shadow: rgba(0, 0, 0, 0.404) 2px 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.596) 10px 20px 10px ;
 }
 .ListaBox p {
     font-size: 20px;

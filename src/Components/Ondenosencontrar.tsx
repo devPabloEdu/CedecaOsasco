@@ -8,7 +8,6 @@ function Ondenosencontrar() {
     return <div>
         <div className="Backgroundlugares" id="Ondenosencontrar">
             <h2 className="ondenosencontrartitle">ONDE NOS ENCONTRAR</h2>
-            <hr />
             <div className="Boxlugares">
 
                 <div className="ContainerLugares">

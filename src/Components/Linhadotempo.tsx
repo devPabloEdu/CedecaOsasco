@@ -135,7 +135,6 @@ function Linhadotempo() {
         <div className="Carrosellinhadotempo">
             <div>
                 <h1>LINHA DO TEMPO</h1>
-                <hr />
             </div>
             <div className="carousel">
               <button onClick={prevSlide}>{"<"}</button>

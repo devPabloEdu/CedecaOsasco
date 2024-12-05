@@ -10,7 +10,9 @@
     display: flex;
     align-items: center;
     padding: 20px;
-    background-color: #2f8ab1;
+    background-image: url(../Assets/Fundoazulteste.jpeg);
+    background-size: cover;
+    background-position: top bottom;
     justify-content: center;
 }
 
@@ -31,7 +33,7 @@
     text-align: justify;
 }
 .Backgroundazul{
-    background-color: #1f516681;
+    background-color: #415f70;
     border-radius: 5%;
 }
 .imgquemsomos{

@@ -24,9 +24,9 @@ function App() {
         <Quemsomos />
         <Linhadotempo />
         <Quemsomosdois />
-        <Ondenosencontrar />
       </header>
       <main>
+        <Ondenosencontrar />
         <NossaAtuacao />
       </main>
     </div>
