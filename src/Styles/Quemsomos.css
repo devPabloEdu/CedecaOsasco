@@ -22,9 +22,8 @@
 }
 .Quemsomosbox p{
     text-align: justify;
-    font-size: 14px;
-    color: whitesmoke;
-    background-color: #232f50be;
+    font-size: 16px;
+    color: #0e1320;
     padding: 20px;
     font-family: var(--textfont);
     line-height: 40px;
