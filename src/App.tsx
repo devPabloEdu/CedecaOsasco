@@ -1,18 +1,13 @@
 import React from "react";
-import "./Styles/Navbar.css";
-import "./Styles/Imgdefundo.css";
-import "./Styles/Quemsomos.css";
-import "./Styles/Linhadotempo.css";
-import "./Styles/Quemsomosdois.css";
-import "./Styles/Ondenosencontrar.css";
-import "./Styles/Nossatuacao.css"
 import Navbar from "./Components/Navbar.tsx";
-import ImagemDeFundo from "./Components/ImagemDeFundo.tsx";
+import Banner from "./Components/Banner.tsx"
 import Quemsomos from "./Components/Quemsomos.tsx";
-import Linhadotempo from "./Components/Linhadotempo.tsx";
-import Quemsomosdois from "./Components/Quemsomosdois.tsx";
 import Ondenosencontrar from "./Components/Ondenosencontrar.tsx";
-import NossaAtuacao from "./Components/NossaAtuacao.tsx";
+import "./Styles/Navbar.css";
+import "./Styles/Banner.css";
+import "./Styles/Quemsomos.css";
+import "./Styles/Ondenosencontrar.css";
+
 
 
 function App() {
@@ -20,14 +15,11 @@ function App() {
     <div className="App">
       <header>
         <Navbar />
-        <ImagemDeFundo />
+        <Banner />
         <Quemsomos />
-        <Linhadotempo />
-        <Quemsomosdois />
       </header>
       <main>
         <Ondenosencontrar />
-        <NossaAtuacao />
       </main>
     </div>
   );
