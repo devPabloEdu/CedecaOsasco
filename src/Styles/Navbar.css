@@ -10,6 +10,25 @@
     --azulnavbar: #232f50;
     --azulnavbarhover: #121829;
 }
+
+.voltaroaotopobutton{
+    position: fixed;
+    display: flex;
+    text-align: right;
+    transform: translateY(1200%) translateX(50%);
+
+}
+.voltaroaotopobutton button{
+    background-color: #232f50;
+    color: whitesmoke;
+    padding: 10px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
 .navbarbox{
     display: flex;
     align-items: center;
