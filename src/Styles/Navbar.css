@@ -15,7 +15,7 @@
     position: fixed;
     display: flex;
     text-align: right;
-    transform: translateY(1200%) translateX(50%);
+    transform: translateY(1500%) translateX(50%);
 
 }
 .voltaroaotopobutton button{
@@ -36,6 +36,9 @@
 }
 .logocedecanav img{
     width: 200px;
+}
+.navbarItens{
+    display: flex;
 }
 .navbarItens a{
     text-decoration: none;
@@ -62,3 +65,68 @@
     content: "  v";
     font-weight: 500;
 }
+.nav-item{
+    position: relative;
+}
+.Submenu{
+    display: none;
+}
+.Submenu a{
+    display: block;
+}
+.nav-item:hover .Submenu{
+    display: block;
+    position: absolute;
+    transform: translateY(8%);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.Submenu{
+    background-color: #121829;
+    padding: 10px;
+    border-radius: 0px 0px 10px;
+}
+.Submenu a{
+    color: whitesmoke;
+}
+.Submenu a:hover{
+    color: #0a0d16;
+    background-color: rgba(245, 245, 245, 0.418);
+}
+.Submenu a::after{
+    content: "";
+}
+.Submenu a:hover::after{
+    content: "";
+}
+#submenuquemsomos{
+    transform: translateY(23%);
+    padding: 20px;
+}
+#submenuOnde{
+    transform: translateY(9%);
+}
+#submenulinhadotempo{
+    transform: translateY(27%);
+}
+#submenunossaatuacao{
+    transform: translateY(6.5%);
+}
+#submenudoe{
+    transform: translateY(24%);
+}
+#submenuredes{
+    transform: translateY(27%);
+    padding: 20px;
+}
+/* Animação opcional para o submenu */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(5);
+    }
+  }
