@@ -16,6 +16,7 @@
     display: flex;
     text-align: right;
     transform: translateY(1500%) translateX(50%);
+    z-index: 6;
 
 }
 .voltaroaotopobutton button{
@@ -79,6 +80,7 @@
     position: absolute;
     transform: translateY(8%);
     animation: fadeIn 0.3s ease-in-out;
+    z-index: 5;
 }
 
 .Submenu{

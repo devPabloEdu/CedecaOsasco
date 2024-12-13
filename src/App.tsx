@@ -7,7 +7,10 @@ import Ondenosencontrar from "./Components/Ondenosencontrar.tsx";
 import Timeline from "./Components/Timeline.tsx";
 import Footer from "./Components/Footer.tsx";
 import MunhozJunior from "./Pages/MunhozJunior.tsx";
-import CasperLibero from "./Pages/CasperLibero.tsx";
+import Recanto from "./Pages/Recanto.tsx";
+import Centro from "./Pages/Centro.tsx";
+import Casper from "./Pages/Casper.tsx";
+import Doe from "./Pages/Doe.tsx";
 import "./Styles/Navbar.css";
 import "./Styles/Banner.css";
 import "./Styles/Quemsomos.css";
@@ -15,6 +18,7 @@ import "./Styles/Ondenosencontrar.css";
 import "./Styles/Timeline.css";
 import "./Styles/Footer.css";
 import "./Styles/pagemunhoz.css";
+import "./Styles/pageDoe.css";
 import AOS from "aos";
 
 
@@ -43,7 +47,13 @@ function App() {
 
                       <Route path="/atividades-munhoz-junior" element={<MunhozJunior />} />
 
-                      <Route path="/atividades-casperlibero" element={<CasperLibero />} />
+                      <Route path="/atividades-recanto" element={<Recanto />} />
+
+                      <Route path="/atividades-centro" element={<Centro />} />
+
+                      <Route path="/atividades-casper" element={<Casper />} />
+
+                      <Route path="/Doe" element={<Doe />} />
 
                   </Routes>
               </main>

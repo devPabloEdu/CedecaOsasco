@@ -32,7 +32,7 @@ function Navbar() {
                 <div className="nav-item">
                     <a href="#linhadotempoid">Linha do Tempo</a>
                     <div className="Submenu" id="submenulinhadotempo">
-                        <a href="">Nossa História</a>
+                        <a href="#linhadotempoid">Nossa História</a>
                     </div>
                 </div>
 
@@ -43,12 +43,12 @@ function Navbar() {
 
                     <Link to="/atividades-munhoz-junior">Atividades Munhoz Júnior</Link>
 
-                    <a href="">Atividades Unidade Centro</a>
+                    <Link to="/atividades-centro">Atividades Unidade Centro</Link>
 
                     
-                    <a href="">Atividades Recanto das Rosas</a>
+                    <Link to="/atividades-recanto">Atividades Recanto das Rosas</Link>
 
-                    <Link to="/atividades-casperlibero">Atividades Casper Libero</Link>
+                    <Link to="/atividades-casper">tividades Casper Libero</Link>
 
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function Navbar() {
                 <div className="nav-item">
                     <a href="">Doe</a>
                     <div className="Submenu" id="submenudoe">
-                        <a href="">Formas de Apoio</a>
+                        <Link to="/Doe">Formas de Apoio</Link>
                     </div>
                 </div>
 
